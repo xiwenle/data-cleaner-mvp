@@ -1,0 +1,50 @@
+# Python 缓存与编译产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# 虚拟环境
+venv/
+.env/
+.venv/
+env/
+
+# 测试临时文件
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE 与系统文件
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# 环境变量与密钥文件（绝不能提交！）
+.env
+.env.local
+*.key
+*.pem
+secrets.toml
+credentials.json
+
+# 用户上传的数据文件（项目根目录下的 CSV、Excel）
+/*.csv
+/*.xlsx
+/*.xls
+
+# 日志文件
+*.log
+
+# 操作系统生成文件
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml

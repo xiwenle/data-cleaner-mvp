@@ -1,0 +1,13 @@
+# .streamlit/config.toml
+# 参考计划书 v6.0 第十三项 - Streamlit 配置文件
+
+[server]
+maxUploadSize = 50       # 单位MB，需与 file_handler.validate_file() 中的代码检查保持同步
+headless = true          # 无头模式运行，适用于 Streamlit Cloud 部署
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#0084FF"
+backgroundColor = "#FFFFFF"
